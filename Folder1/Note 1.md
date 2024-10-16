@@ -9,7 +9,7 @@ Date:    October 2, 2007
 blank-value:
 base_url: http://example.com
 
-![alt image text](attachments/magicstudio-art(4).jpg)
+![](../attachments/magicstudio-art(4)%201.jpg)
 
 | **col 1**           | **col 2**               |
 | ------------------- | ----------------------- |
