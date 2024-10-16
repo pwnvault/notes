@@ -11,8 +11,13 @@
             "id": "fe977a877f3e33e7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Folder1/Note 1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Folder1/Note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Folder1/Note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Folder1/Note 1.md"
+              }
             }
           }
         ]
@@ -140,11 +149,25 @@
   },
   "active": "fe977a877f3e33e7",
   "lastOpenFiles": [
-    "README.md",
-    "Test123",
-    "Welcome.md",
+    "Folder1/attachments/magicstudio-art(4).jpg",
+    "Folder1/attachments",
     "Folder1/Note 1.md",
+    "Templates/attachments/magicstudio-art(4).jpg",
+    "Wiki Link.md",
     "Templates/Meta.md",
+    "Templates/attachments",
+    "Test123/create a link.md",
+    "README.md",
+    "Welcome.md",
+    "Test123/attachments/magicstudio-art(4).jpg",
+    "Test123/attachments",
+    "attachments/3r8fops7mcbd1.jpeg",
+    "3r8fops7mcbd1.jpeg",
+    "pwnvault/docs/index.md",
+    "pwnvault/mkdocs.yml",
+    "pwnvault/docs",
+    "pwnvault",
+    "Test123",
     "Templates",
     "Folder1"
   ]
