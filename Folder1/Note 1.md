@@ -9,8 +9,8 @@ Date:    October 2, 2007
 blank-value:
 base_url: http://example.com
 
-
 ![](attachments/magicstudio-art(4).jpg)
+
 
 | **col 1**           | **col 2**               |
 | ------------------- | ----------------------- |
