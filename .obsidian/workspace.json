@@ -11,13 +11,8 @@
             "id": "fe977a877f3e33e7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Folder1/Note 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Folder1/Note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Folder1/Note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Folder1/Note 1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,30 +140,51 @@
   },
   "active": "fe977a877f3e33e7",
   "lastOpenFiles": [
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Miscellaneous Misconfigurations.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Kerberos \"Double Hop\" Problem.md",
+    "HackTheBox CPTS Course/Windows Privesc/Initial Enumeration.md",
+    "Tools/Evil-WinRM.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Privileged Access.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Attacking Domain Trusts - Child -> Parent Trusts - from Windows.md",
+    "Tools/PowerUpSQL.md",
+    "HackTheBox CPTS Course/Windows Privesc/Windows Privileges Overview.md",
+    "HackTheBox CPTS Course/Windows Privesc/Situational Awareness.md",
+    "HackTheBox CPTS Course/Windows Privesc/Windows Built-in Groups.md",
+    "HackTheBox CPTS Course/Windows Privesc/Communication with Processes.md",
+    "Active Directory/Attacks/ExtraSIDs (SIDHistory).md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Attacking Domain Trusts - Child -> Parent Trusts - from Linux.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Domain Trusts Primer.md",
+    "HackTheBox CPTS Course/Windows Privesc/DnsAdmins.md",
+    "HackTheBox CPTS Course/Windows Privesc/Introduction to Windows Privilege Escalation.md",
+    "HackTheBox CPTS Course/Windows Privesc/SeTakeOwnershipPrivilege.md",
+    "HackTheBox CPTS Course/Windows Privesc/SeImpersonate and SeAssignPrimaryToken.md",
+    "Active Directory/Enumeration/Well Known SID's.md",
+    "HackTheBox CPTS Course/Windows Privesc/SeDebugPrivilege.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks/Attacking Domain Trusts - Cross-Forest Trust Abuse - from Windows.md",
+    "Active Directory/Attacks/DCSync.md",
+    "HackTheBox CPTS Course/Windows Privesc/Useful Tools.md",
+    "Tools/Impacket/Impacket.md",
+    "Active Directory/Attacks/ASREP Roasting.md",
+    "HackTheBox CPTS Course/Windows Privesc/Event Log Readers.md",
+    "HackTheBox CPTS Course/Active Directory Enumeration & Attacks",
+    "HackTheBox CPTS Course/SQLMap Essentials",
+    "HackTheBox CPTS Course/Windows Privesc",
+    "Active Directory/Enumeration/Internal",
+    "Active Directory/Enumeration/External",
+    "Pivoting and Port Forwarding",
+    "Active Directory/Enumeration",
+    "Active Directory/Attacks",
+    "HackTheBox CPTS Course",
+    "Windows/Enumeration",
+    "docs/Test123/attachments/magicstudio-art(4).jpg",
+    "docs/attachments/magicstudio-art(4).jpg",
     "attachments/magicstudio-art(4).jpg",
-    "attachments",
     "magicstudio-art(4).jpg",
     "Folder1/attachments/magicstudio-art(4).jpg",
-    "Folder1/attachments",
     "attachments/magicstudio-art(4) 1.jpg",
-    "attachments",
-    "Folder1/Note 1.md",
     "Templates/attachments/magicstudio-art(4).jpg",
-    "Wiki Link.md",
-    "Templates/Meta.md",
-    "Templates/attachments",
-    "Test123/create a link.md",
-    "README.md",
-    "Welcome.md",
     "Test123/attachments/magicstudio-art(4).jpg",
-    "Test123/attachments",
     "attachments/3r8fops7mcbd1.jpeg",
-    "3r8fops7mcbd1.jpeg",
-    "pwnvault/docs/index.md",
-    "pwnvault/mkdocs.yml",
-    "pwnvault/docs",
-    "pwnvault",
-    "Test123",
-    "Templates"
+    "3r8fops7mcbd1.jpeg"
   ]
 }
