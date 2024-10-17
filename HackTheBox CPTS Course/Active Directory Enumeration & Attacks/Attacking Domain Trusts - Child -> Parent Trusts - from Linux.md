@@ -1,4 +1,4 @@
-
+Test
 We can also perform the attack shown in the previous section from a Linux attack host. To do so, we'll still need to gather the same bits of information:
 
 - The KRBTGT hash for the child domain
