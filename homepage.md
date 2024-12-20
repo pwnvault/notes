@@ -1,3 +1,8 @@
+---
+slug: "'/'"
+---
+
+---
 # PWNGuides
 
 pwnguides test
